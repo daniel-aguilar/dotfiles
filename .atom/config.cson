@@ -1,0 +1,32 @@
+"*":
+  core:
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "bf620d1f-e8f6-4486-a4c0-40b0154b21e6"
+  "git-diff":
+    showIconsInEditorGutter: true
+  minimap:
+    plugins:
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
+  "tree-view":
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+".basic.html.text":
+  editor:
+    tabLength: 2
+".source.yaml":
+  editor:
+    tabLength: 2

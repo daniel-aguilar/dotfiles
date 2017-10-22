@@ -1,0 +1,28 @@
+[user]
+	name = Daniel
+	email = 20218476+daniel-aguilar@users.noreply.github.com
+[core]
+	editor = vim
+[push]
+	default = current
+	followTags = true
+[pull]
+	rebase = true
+[alias]
+	st = status
+	fe = fetch
+	pl = pull
+	ps = push
+	co = checkout
+	cob = checkout -b
+	cc = commit
+	ca = commit --amend
+	br = branch
+	sbr = show-branch
+	ss = stash save -u
+	sl = stash list
+	sa = stash apply
+	sp = stash pop
+	sd = stash drop
+	reprune = remote prune origin
+	cp = cherry-pick
