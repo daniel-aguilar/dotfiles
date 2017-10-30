@@ -4,7 +4,7 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "solarized-dark-syntax"
+      "base16-tomorrow-dark-theme"
     ]
   editor:
     scrollPastEnd: true
