@@ -5,6 +5,7 @@ language-dotenv@1.1.1
 language-gettext@0.6.1
 minimap@4.29.7
 minimap-split-diff@0.3.7
+pretty-json@1.6.4
 split-diff@1.5.1
 todo-show@2.1.0
 
