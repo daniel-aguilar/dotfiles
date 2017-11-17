@@ -1,10 +1,13 @@
 advanced-open-file@0.16.7
+atom-ide-ui@0.5.4
+atom-typescript@11.0.10
 editorconfig@2.2.2
 file-icons@2.1.13
 language-dotenv@1.1.1
 language-gettext@0.6.1
 minimap@4.29.7
 minimap-split-diff@0.3.7
+pigments@0.40.2
 pretty-json@1.6.4
 split-diff@1.5.1
 todo-show@2.1.0
