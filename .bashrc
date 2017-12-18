@@ -1,5 +1,7 @@
 source /etc/skel/.bashrc
 
+set -o vi
+
 # prompt
 
 RESET="\[\033[0m\]"
