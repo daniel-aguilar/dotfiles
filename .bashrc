@@ -11,18 +11,6 @@ FG_L_RED="\[\033[1;31m\]"
 
 PS1="[$FG_L_GREEN\u@\h$RESET $FG_L_BLUE\W$RESET $FG_L_RED\@$RESET]\\$ "
 
-# thefuck
-
-eval $(thefuck --alias)
-
-# android
-
-export PATH="\
-$HOME/opt/android-sdk/tools/bin:\
-$HOME/opt/android-sdk/platform-tools:\
-$HOME/opt/android-studio/bin:\
-$PATH"
-
 # pyenv
 
 export PYENV_ROOT="$HOME/.pyenv"
