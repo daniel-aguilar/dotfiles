@@ -19,10 +19,8 @@
 	ca = commit --amend
 	cp = cherry-pick
 	br = branch
-	sbr = show-branch
 	ss = stash save -u
 	sl = stash list
 	sa = stash apply
 	sp = stash pop
 	sd = stash drop
-	reprune = remote prune origin
