@@ -3,8 +3,8 @@
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "one-light-ui"
+      "solarized-light-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
