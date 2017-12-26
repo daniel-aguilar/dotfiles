@@ -1,2 +1,3 @@
 .ssh/config
-.ssh/*.{key,pub}
+.ssh/*.key
+.ssh/*.pub
