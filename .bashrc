@@ -1,6 +1,7 @@
 source /etc/skel/.bashrc
 
 set -o vi
+umask 002
 
 RESET="\[\033[0m\]"
 FG_L_GREEN="\[\033[1;32m\]"
