@@ -1,4 +1,11 @@
-source /etc/skel/.bashrc
+system_type=$(uname -s)
+
+if [ "$system_type" == "Linux" ]; then
+    source /etc/skel/.bashrc
+
+    alias gpg=gpg2
+    alias open=xdg-open
+fi
 
 set -o vi
 umask 002
@@ -10,7 +17,5 @@ FG_L_RED="\[\033[1;31m\]"
 
 PS1="[$FG_L_GREEN\u@\h$RESET $FG_L_BLUE\W$RESET $FG_L_RED\@$RESET]\\$ "
 
-alias gpg=gpg2
 alias tp=trash-put
-alias open=xdg-open
 alias dm=yadm
