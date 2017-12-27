@@ -3,7 +3,6 @@ system_type=$(uname -s)
 if [ "$system_type" == "Linux" ]; then
     source /etc/skel/.bashrc
 
-    alias gpg=gpg2
     alias open=xdg-open
 fi
 
