@@ -11,13 +11,14 @@ if [ "$system_type" == "Linux" ]; then
     PS1="[$FG_L_GREEN\u@\h$RESET $FG_L_BLUE\W$RESET $FG_L_RED\@$RESET]\\$ "
 
     alias open=xdg-open
+    alias tp=trash-put
 fi
 if [ "$system_type" == "Darwin" ]; then
     PS1="[\u@\h \W]\\$ "
+    alias tp=trash
 fi
 
 set -o vi
 umask 002
 
-alias tp=trash-put
 alias dm=yadm
