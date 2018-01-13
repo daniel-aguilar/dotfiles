@@ -1,6 +1,6 @@
-source /etc/skel/.profile
-
 export  PYENV_ROOT="$HOME/.pyenv"
         RBENV_BIN="$HOME/.rbenv/bin"
 
 PATH="$PYENV_ROOT/bin:$RBENV_BIN:$PATH"
+
+source /etc/skel/.profile
