@@ -1,6 +1,8 @@
 source "$HOME/.bashrc"
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-export HOMEBREW_NO_ANALYTICS=1
+export  HOMEBREW_NO_ANALYTICS=1
+export  PYENV_ROOT="$HOME/.pyenv"
+        RBENV_BIN="$HOME/.rbenv/bin"
 
-PATH=$PATH:/usr/local/sbin
+PATH="$PYENV_ROOT/bin:$RBENV_BIN:$PATH:/usr/local/sbin"
