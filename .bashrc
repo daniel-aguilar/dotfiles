@@ -14,7 +14,10 @@ if [ "$system_type" == "Linux" ]; then
     alias tp=trash-put
 fi
 if [ "$system_type" == "Darwin" ]; then
+    [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
     PS1="[\u@\h \W]\\$ "
+
     alias tp=trash
 fi
 
@@ -22,6 +25,11 @@ set -o vi
 umask 002
 
 alias dm=yadm
+
+export PYENV_ROOT="$HOME/.pyenv"
+RBENV_BIN="$HOME/.rbenv/bin"
+
+PATH="$PYENV_ROOT/bin:$RBENV_BIN:$PATH"
 
 eval "$(pyenv init -)"
 eval "$(rbenv init -)"
