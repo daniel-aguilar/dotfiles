@@ -24,3 +24,4 @@
 	sa = stash apply
 	sp = stash pop
 	sd = stash drop
+	sbr = show-branch
