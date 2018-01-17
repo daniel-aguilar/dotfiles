@@ -25,3 +25,4 @@
 	sp = stash pop
 	sd = stash drop
 	sbr = show-branch
+	reprune = remote prune origin
