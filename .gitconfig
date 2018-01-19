@@ -13,6 +13,7 @@
 	fe = fetch
 	pl = pull
 	ps = push
+	rt = reset
 	co = checkout
 	cob = checkout -b
 	cc = commit
