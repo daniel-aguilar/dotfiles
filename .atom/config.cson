@@ -1,10 +1,14 @@
 "*":
+  "atom-material-ui":
+    colors:
+      abaseColor: "#2196f3"
+      predefinedColor: "Blue"
   core:
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "solarized-light-syntax"
+      "atom-material-ui"
+      "atom-material-syntax-light"
     ]
   editor:
     fontFamily: "Fira Code"
@@ -21,6 +25,11 @@
     plugins:
       "split-diff": true
       "split-diffDecorationsZIndex": 0
+  "spell-check":
+    locales: [
+      "en-US"
+      "es-CR"
+    ]
   "tree-view":
     squashDirectoryNames: true
   welcome:
