@@ -1,15 +1,21 @@
 "*":
   "atom-material-ui":
     colors:
-      abaseColor: "#80deea"
-      accentColor: "#528c94"
-      predefinedColor: "Cyan"
+      abaseColor: "#2196f3"
+      genAccent: true
+      paintCursor: true
+      predefinedColor: "Blue"
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   core:
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
-      "atom-material-syntax-light"
+      "atom-material-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
