@@ -32,8 +32,14 @@
     plugins:
       bookmarks: true
       bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
       "minimap-autohider": true
       "minimap-autohiderDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
       "split-diff": true
       "split-diffDecorationsZIndex": 0
   "spell-check":

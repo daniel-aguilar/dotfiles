@@ -10,6 +10,9 @@ language-latex
 minimap
 minimap-autohider
 minimap-bookmarks
+minimap-cursorline
+minimap-find-and-replace
+minimap-selection
 minimap-split-diff
 pigments
 pretty-json
