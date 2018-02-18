@@ -30,6 +30,10 @@
     showIconsInEditorGutter: true
   minimap:
     plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      "minimap-autohider": true
+      "minimap-autohiderDecorationsZIndex": 0
       "split-diff": true
       "split-diffDecorationsZIndex": 0
   "spell-check":

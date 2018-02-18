@@ -3,12 +3,13 @@ atom-material-syntax
 atom-material-ui
 editorconfig
 file-icons
-hyperclick
-intentions
 language-docker
 language-dotenv
 language-gettext
+language-latex
 minimap
+minimap-autohider
+minimap-bookmarks
 minimap-split-diff
 pigments
 pretty-json
