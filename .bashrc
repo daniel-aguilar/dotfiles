@@ -25,3 +25,7 @@ set -o vi
 umask 002
 
 alias dm=yadm
+
+if [ -d autoload.d ]; then
+    source /.autoload.d/*
+fi
