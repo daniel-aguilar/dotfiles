@@ -26,8 +26,9 @@ umask 002
 
 alias dm=yadm
 
-if [ -d "$HOME/.autoload.d" ]; then
-    for f in "$HOME/.autoload.d/*"; do
+AUTOLOAD_DIR="$HOME/.autoload.d"
+if [ -d "$AUTOLOAD_DIR" ]; then
+    for f in "$AUTOLOAD_DIR/*"; do
         source $f
     done
 fi
