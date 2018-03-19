@@ -1,3 +1,3 @@
-.ssh/config
-.ssh/*.key
-.ssh/*.pub
+.ssh/*
+!.ssh/authorized_keys
+!.ssh/known_hosts*
