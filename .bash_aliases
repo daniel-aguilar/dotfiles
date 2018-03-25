@@ -6,3 +6,4 @@ elif [ $system == "Darwin" ]; then
 fi
 
 alias dm=yadm
+alias clear="tput reset"
