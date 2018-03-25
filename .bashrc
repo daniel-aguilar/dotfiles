@@ -8,21 +8,16 @@ if [ $system == "Linux" ]; then
     blue="\[$(tput bold; tput setaf 12)\]"
 
     PS1="[$green\u@\h$reset $blue\W$reset]\\$ "
-
-    alias open=xdg-open
-    alias tp=trash-put
 elif [ $system == "Darwin" ]; then
+    source .bash_aliases
+
     [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
     PS1="[\u@\h \W]\\$ "
-
-    alias tp=trash
 fi
 
 set -o vi
 umask 002
-
-alias dm=yadm
 
 AUTOLOAD_DIR="$HOME/.autoload.d"
 if [ -d $AUTOLOAD_DIR ]; then
