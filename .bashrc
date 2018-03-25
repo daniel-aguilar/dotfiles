@@ -6,9 +6,8 @@ if [ $system == "Linux" ]; then
     reset="\[$(tput sgr0)\]"
     green="\[$(tput bold; tput setaf 119)\]"
     blue="\[$(tput bold; tput setaf 12)\]"
-    red="\[$(tput bold; tput setaf 9)\]"
 
-    PS1="[$green\u@\h$reset $blue\W$reset $red\@$reset]\\$ "
+    PS1="[$green\u@\h$reset $blue\W$reset]\\$ "
 
     alias open=xdg-open
     alias tp=trash-put
