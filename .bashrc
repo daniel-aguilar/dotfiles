@@ -9,7 +9,7 @@ if [ $system == "Linux" ]; then
 
     PS1="[$green\u@\h$reset $blue\W$reset]\\$ "
 elif [ $system == "Darwin" ]; then
-    source .bash_aliases
+    source ~/.bash_aliases
 
     [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
