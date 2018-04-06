@@ -1,4 +1,6 @@
 "*":
+  "atom-ide-ui":
+    use: {}
   "atom-material-ui":
     colors:
       abaseColor: "#2196f3"
