@@ -9,7 +9,6 @@ fi
 source ~/.bash_aliases
 
 set -o vi
-umask 002
 
 AUTOLOAD_DIR="$HOME/.autoload.d"
 if [ -d $AUTOLOAD_DIR ]; then
