@@ -1,6 +1,5 @@
 [user]
-	name = Daniel
-	email = 20218476+daniel-aguilar@users.noreply.github.com
+	useconfigonly = true
 [core]
 	editor = vim
 [push]
