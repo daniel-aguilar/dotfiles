@@ -27,5 +27,6 @@
 	sd = stash drop
 	sbr = show-branch
 	reprune = remote prune origin
+	sdiff = diff --staged
 [clean]
 	requireForce = false
