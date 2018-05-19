@@ -11,8 +11,21 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'mhinz/vim-startify'
 Plugin 'chriskempson/base16-vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'embear/vim-localvimrc'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 colorscheme base16-github
 set guifont=Inconsolata\ 12
