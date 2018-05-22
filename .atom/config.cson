@@ -20,7 +20,7 @@
       "atom-material-syntax"
     ]
   editor:
-    fontFamily: "Fira Code"
+    fontFamily: "Inconsolata"
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
