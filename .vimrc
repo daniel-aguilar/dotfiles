@@ -27,13 +27,10 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-colorscheme base16-github
-set guifont=Inconsolata\ 12
-
 syntax on
 set showcmd
 set backspace=2
 set number ruler
 set ignorecase smartcase incsearch
-filetype plugin indent on
 set tabstop=4 shiftwidth=4 expandtab
+filetype plugin indent on
