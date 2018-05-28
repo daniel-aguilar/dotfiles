@@ -76,3 +76,4 @@ $RECYCLE.BIN/
 
 *.swp
 .ruby-version
+.python-version
