@@ -42,7 +42,6 @@ let g:better_whitespace_enabled=1
 let g:NERDTreeChDirMode=2
 let g:table_mode_corner_corner='+'
 let g:table_mode_header_fillchar='='
-let g:airline_powerline_fonts=1
 
 map <F2> :NERDTreeToggle <CR>
 
