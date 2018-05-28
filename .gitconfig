@@ -18,6 +18,7 @@
 	cc = commit
 	ca = commit --amend
 	cp = cherry-pick
+	cl = clean
 	rb = rebase
 	br = branch
 	ss = stash save -u
