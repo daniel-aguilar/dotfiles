@@ -57,6 +57,7 @@ autocmd FileType typescript JsPreTmpl html
 
 syntax on
 set showcmd
+set autoread
 set backspace=2
 set laststatus=2
 set noshowmode
