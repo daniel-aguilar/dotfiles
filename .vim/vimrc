@@ -44,7 +44,7 @@ let g:NERDTreeChDirMode=2
 let g:table_mode_corner_corner='+'
 let g:table_mode_header_fillchar='='
 let g:NERDTreeShowHidden=1
-let g:matchup_matchparen_enabled=0
+let g:matchup_matchparen_status_offscreen=0
 let g:startify_lists = [
     \ { 'type': 'files', 'header': ['Recently open'] },
     \ { 'type': 'dir', 'header': ['Recently open at '. getcwd()] },
