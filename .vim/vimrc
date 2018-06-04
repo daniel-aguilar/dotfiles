@@ -50,6 +50,9 @@ let g:startify_lists = [
     \ { 'type': 'dir', 'header': ['Recently open at '. getcwd()] },
     \ { 'type': 'sessions', 'header': ['Sessions'] },
     \ ]
+let g:UltiSnipsExpandTrigger='<c-l>'
+let g:UltiSnipsJumpForwardTrigger='<c-n>'
+let g:UltiSnipsJumpBackwardTrigger='<c-p>'
 
 map <F2> :NERDTreeToggle <CR>
 
