@@ -1,61 +1,15 @@
 "*":
-  "atom-ide-ui":
-    use: {}
-  "atom-material-ui":
-    colors:
-      abaseColor: "#2196f3"
-      genAccent: true
-      paintCursor: true
-      predefinedColor: "Blue"
-    tabs:
-      compactTabs: true
-    ui:
-      panelContrast: true
-      panelShadows: true
   core:
     restorePreviousWindowsOnStart: "no"
     telemetryConsent: "no"
-    themes: [
-      "atom-material-ui"
-      "atom-material-syntax"
-    ]
   editor:
     fontFamily: "Inconsolata"
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
-    tabLength: 4
-    tabType: "soft"
   "exception-reporting":
-    userId: "bf620d1f-e8f6-4486-a4c0-40b0154b21e6"
-  "git-diff":
-    showIconsInEditorGutter: true
-  minimap:
-    plugins:
-      bookmarks: true
-      bookmarksDecorationsZIndex: 0
-      cursorline: true
-      cursorlineDecorationsZIndex: 0
-      "find-and-replace": true
-      "find-and-replaceDecorationsZIndex": 0
-      "minimap-autohider": true
-      "minimap-autohiderDecorationsZIndex": 0
-      selection: true
-      selectionDecorationsZIndex: 0
-      "split-diff": true
-      "split-diffDecorationsZIndex": 0
-  "spell-check":
-    locales: [
-      "en-US"
-      "es-CR"
-    ]
+    userId: "8d85dcbe-4aa4-48f6-9db8-d655ebe35935"
   "tree-view":
     squashDirectoryNames: true
   welcome:
     showOnStartup: false
-".basic.html.text":
-  editor:
-    tabLength: 2
-".source.yaml":
-  editor:
-    tabLength: 2

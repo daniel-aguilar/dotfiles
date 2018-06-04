@@ -1,23 +1,5 @@
-advanced-open-file
 atom-ide-ui
-atom-material-syntax
-atom-material-ui
 atom-typescript
 editorconfig
-file-icons
-language-docker
-language-dotenv
-language-gettext
-language-latex
 minimap
-minimap-autohider
-minimap-bookmarks
-minimap-cursorline
-minimap-find-and-replace
-minimap-selection
-minimap-split-diff
-pigments
-pretty-json
-split-diff
-todo-show
 
