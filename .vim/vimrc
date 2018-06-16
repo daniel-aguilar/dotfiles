@@ -32,6 +32,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'andymass/vim-matchup'
+Plugin 'gu-fan/riv.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 
