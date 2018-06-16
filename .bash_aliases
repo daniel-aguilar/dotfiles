@@ -6,5 +6,4 @@ elif [ $system == "Darwin" ]; then
 fi
 
 alias dm=yadm
-alias clear="tput reset"
-alias t=todo.sh
+alias td=todo.sh
