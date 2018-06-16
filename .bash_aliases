@@ -7,3 +7,4 @@ fi
 
 alias dm=yadm
 alias clear="tput reset"
+alias t=todo.sh
