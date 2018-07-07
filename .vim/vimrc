@@ -58,12 +58,7 @@ let g:UltiSnipsJumpBackwardTrigger='<c-p>'
 map <F2> :NERDTreeToggle <CR>
 set pastetoggle=<Leader>p
 
-autocmd FileType typescript JsPreTmpl html
-autocmd Filetype html       setlocal et sw=2 ts=2
-autocmd Filetype htmldjango setlocal et sw=2 ts=2
-autocmd Filetype javascript setlocal et sw=2 ts=2
-autocmd Filetype css        setlocal et sw=2 ts=2
-autocmd Filetype scss       setlocal et sw=2 ts=2
+autocmd Filetype python setlocal sw=4 ts=4
 
 syntax on
 set showcmd
@@ -74,5 +69,5 @@ set noshowmode
 set number
 set nowrap
 set ignorecase smartcase incsearch
-set expandtab shiftwidth=4 tabstop=4
+set expandtab shiftwidth=2 tabstop=2
 filetype plugin indent on
