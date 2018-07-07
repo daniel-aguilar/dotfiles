@@ -6,4 +6,4 @@ elif [ $system == "Darwin" ]; then
 fi
 
 alias dm=yadm
-alias td=todo.sh
+alias t=todo.sh
