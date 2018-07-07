@@ -12,7 +12,7 @@ set -o vi
 
 AUTOLOAD_DIR="$HOME/.autoload.d"
 if [ -d $AUTOLOAD_DIR ]; then
-    for f in $AUTOLOAD_DIR/*; do
-        source $f
+    for file in $AUTOLOAD_DIR/*; do
+        test -f "$file" && . $file
     done
 fi
