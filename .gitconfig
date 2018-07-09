@@ -2,6 +2,7 @@
 	useconfigonly = true
 [core]
 	editor = vim
+	autocrlf = input
 [push]
 	default = current
 	followTags = true
