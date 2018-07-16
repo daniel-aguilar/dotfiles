@@ -59,6 +59,7 @@ map <F2> :NERDTreeToggle <CR>
 set pastetoggle=<Leader>p
 
 autocmd Filetype python setlocal sw=4 ts=4
+autocmd Filetype sh     setlocal sw=4 ts=4
 
 syntax on
 set showcmd
