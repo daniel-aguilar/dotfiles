@@ -6,13 +6,14 @@ elif [ $system == "Darwin" ]; then
     [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 fi
 
-source ~/.bash_aliases
+source $HOME/.bash_aliases
 
 set -o vi
 
-AUTOLOAD_DIR="$HOME/.autoload.d"
-if [ -d $AUTOLOAD_DIR ]; then
-    for file in $AUTOLOAD_DIR/*; do
-        test -f "$file" && . $file
+autoload_dir="$HOME/.autoload.d"
+if [ -d $autoload_dir ]; then
+    for i in $autoload_dir/*; do
+        test -r $i && . $i
     done
+    unset autoload_dir i
 fi
