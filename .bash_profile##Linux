@@ -1,8 +1,0 @@
-. /etc/skel/.bash_profile
-
-if [ -d $HOME/.profile.d ]; then
-    for i in $HOME/.profile.d/*; do
-        test -r $i && . $i
-    done
-    unset i
-fi
