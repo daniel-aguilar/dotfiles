@@ -6,20 +6,13 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'mhinz/vim-startify'
 Plugin 'chriskempson/base16-vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'embear/vim-localvimrc'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'Quramy/vim-js-pretty-template'
-Plugin 'Quramy/tsuquyomi'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
@@ -28,29 +21,16 @@ Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'andymass/vim-matchup'
-Plugin 'gu-fan/riv.vim'
-Plugin 'ctrlpvim/ctrlp.vim'
 
 call vundle#end()
 
 let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=1
 let g:syntastic_check_on_wq=0
-let g:startify_fortune_use_unicode=1
 let g:better_whitespace_enabled=1
 let g:table_mode_corner_corner='+'
 let g:table_mode_header_fillchar='='
 let g:NERDTreeShowHidden=1
-let g:matchup_matchparen_status_offscreen=0
-let g:startify_lists=[
-    \ {'type': 'files', 'header': ['Recently open']},
-    \ {'type': 'dir', 'header': ['Recently open at '. getcwd()]},
-    \ {'type': 'sessions', 'header': ['Sessions']},
-    \ ]
 let g:UltiSnipsExpandTrigger='<c-l>'
 let g:UltiSnipsJumpForwardTrigger='<c-n>'
 let g:UltiSnipsJumpBackwardTrigger='<c-p>'
@@ -62,6 +42,7 @@ autocmd Filetype python setlocal sw=4 ts=4
 autocmd Filetype sh     setlocal sw=4 ts=4
 
 syntax on
+set hidden
 set showcmd
 set autoread
 set backspace=2
