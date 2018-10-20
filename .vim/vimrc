@@ -39,9 +39,11 @@ let g:UltiSnipsJumpBackwardTrigger='<c-p>'
 map <F2> :NERDTreeToggle <CR>
 set pastetoggle=<Leader>p
 
-autocmd Filetype java   setlocal noet sw=4 ts=4
-autocmd Filetype python setlocal sw=4 ts=4
-autocmd Filetype sh     setlocal sw=4 ts=4
+autocmd Filetype java       setlocal noet sw=4 ts=4
+autocmd Filetype python     setlocal sw=4 ts=4
+autocmd Filetype sh         setlocal sw=4 ts=4
+autocmd Filetype nginx      setlocal sw=4 ts=4
+autocmd Filetype dockerfile setlocal noet sw=4 ts=4
 
 syntax on
 set hidden
