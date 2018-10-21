@@ -45,6 +45,8 @@ autocmd Filetype sh         setlocal sw=4 ts=4
 autocmd Filetype nginx      setlocal sw=4 ts=4
 autocmd Filetype dockerfile setlocal noet sw=4 ts=4
 
+set directory^=~/.vim/swp
+
 syntax on
 set hidden
 set showcmd
