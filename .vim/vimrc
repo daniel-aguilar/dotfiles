@@ -38,6 +38,7 @@ set pastetoggle=<Leader>p
 
 
 set directory^=~/.vim/swp
+set backupdir^=~/.vim/bak
 
 syntax on
 set hidden
