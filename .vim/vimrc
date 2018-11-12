@@ -6,12 +6,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-syntastic/syntastic'
 Plugin 'embear/vim-localvimrc'
-Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'vim-pandoc/vim-pandoc'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
@@ -22,18 +18,12 @@ Plugin 'chr4/nginx.vim'
 
 call vundle#end()
 
-let g:syntastic_always_populate_loc_list=1
-let g:syntastic_auto_loc_list=1
-let g:syntastic_check_on_wq=0
-let g:better_whitespace_enabled=1
 let g:table_mode_corner_corner='+'
 let g:table_mode_header_fillchar='='
-let g:NERDTreeShowHidden=1
 let g:UltiSnipsExpandTrigger='<c-l>'
 let g:UltiSnipsJumpForwardTrigger='<c-n>'
 let g:UltiSnipsJumpBackwardTrigger='<c-p>'
 
-map <F2> :NERDTreeToggle <CR>
 set pastetoggle=<Leader>p
 
 
