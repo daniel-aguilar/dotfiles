@@ -21,6 +21,7 @@
 	cp = cherry-pick
 	cl = clean
 	rb = rebase
+	rv = revert
 	br = branch
 	ss = stash save -u
 	sl = stash list
