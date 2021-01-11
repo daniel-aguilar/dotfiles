@@ -1,5 +1,3 @@
-set pastetoggle=<F2>
-
 set directory^=~/.vim/swp
 set backupdir^=~/.vim/bak
 
