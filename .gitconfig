@@ -31,6 +31,7 @@
 	sbr = show-branch
 	reprune = remote prune origin
 	sdiff = diff --staged
+	rs = restore
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
