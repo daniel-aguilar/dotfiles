@@ -17,7 +17,8 @@
 (set-frame-font "Inconsolata 12" nil t)
 
 (setq package-selected-packages
-      '(neotree zenburn-theme yaml-mode dockerfile-mode minimap))
+      '(markdown-mode magit neotree zenburn-theme yaml-mode dockerfile-mode minimap))
 (load-theme 'zenburn t)
 (global-set-key [f8] 'neotree-toggle)
 (setq minimap-window-location 'right)
+(setq magit-diff-refine-hunk 'all)
