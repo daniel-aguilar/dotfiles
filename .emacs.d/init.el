@@ -15,7 +15,7 @@
 
 (setq package-selected-packages
       '(markdown-mode magit neotree zenburn-theme yaml-mode dockerfile-mode minimap))
-(load-theme 'zenburn t)
+(load-theme 'solarized-light t)
 (global-set-key [f8] 'neotree-toggle)
 (setq minimap-window-location 'right)
 (setq magit-diff-refine-hunk 'all)
