@@ -14,9 +14,8 @@
 (set-frame-font "Inconsolata" nil t)
 
 (setq package-selected-packages
-      '(markdown-mode magit neotree zenburn-theme yaml-mode dockerfile-mode minimap))
+      '(solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
 (load-theme 'solarized-light t)
-(global-set-key [f8] 'neotree-toggle)
 (setq minimap-window-location 'right)
 (setq magit-diff-refine-hunk 'all)
 (global-set-key (kbd "C-c a") 'org-agenda)
