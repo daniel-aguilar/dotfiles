@@ -11,7 +11,7 @@
 (scroll-bar-mode -1)
 (set-default 'truncate-lines t)
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
-(set-frame-font "Inconsolata 12" nil t)
+(set-frame-font "Inconsolata" nil t)
 
 (setq package-selected-packages
       '(markdown-mode magit neotree zenburn-theme yaml-mode dockerfile-mode minimap))
