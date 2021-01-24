@@ -19,6 +19,7 @@
 (global-set-key [f8] 'neotree-toggle)
 (setq minimap-window-location 'right)
 (setq magit-diff-refine-hunk 'all)
+(global-set-key (kbd "C-c a") 'org-agenda)
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
