@@ -13,8 +13,6 @@
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 (set-frame-font "Inconsolata" nil t)
 
-(setq package-selected-packages
-      '(solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
 (load-theme 'solarized-light t)
 (setq minimap-window-location 'right)
 (setq magit-diff-refine-hunk 'all)
@@ -22,3 +20,6 @@
 
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
+
+(setq package-selected-packages
+      '(solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
