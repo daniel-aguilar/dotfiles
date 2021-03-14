@@ -18,8 +18,11 @@
 (setq magit-diff-refine-hunk 'all)
 (global-set-key (kbd "C-c a") 'org-agenda)
 
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
 (setq package-selected-packages
-      '(solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
+      '(exec-path-from-shell solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
