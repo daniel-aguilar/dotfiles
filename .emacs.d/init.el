@@ -21,6 +21,11 @@
 (when (memq window-system '(mac ns x))
   (exec-path-from-shell-initialize))
 
+(add-hook 'dockerfile-mode-hook
+	  (lambda ()
+	    (setq-default indent-tabs-mode t)
+	    (setq-default tab-width 4)))
+
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
