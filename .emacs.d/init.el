@@ -30,4 +30,4 @@
 (load custom-file)
 
 (setq package-selected-packages
-      '(exec-path-from-shell solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
+      '(editorconfig exec-path-from-shell solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
