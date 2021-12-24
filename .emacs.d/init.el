@@ -29,5 +29,6 @@
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
 
-(setq package-selected-packages
-      '(editorconfig exec-path-from-shell solarized-theme markdown-mode magit yaml-mode dockerfile-mode minimap))
+(setq package-selected-packages '(php-mode editorconfig
+      exec-path-from-shell solarized-theme markdown-mode magit
+      yaml-mode dockerfile-mode minimap))
