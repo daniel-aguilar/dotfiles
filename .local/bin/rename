@@ -48,7 +48,7 @@ class File:
     def get_timestamp(self):
         if self.type == 'video':
             # QuickTime's actual CreateDate
-            return self.meta['DateTimeOriginal']
+            return self.meta['CreationDate']
         return self.meta['CreateDate']
 
 
