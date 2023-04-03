@@ -35,6 +35,7 @@
 	rtl = reset --soft HEAD^
 	rlog = reflog
 	lg = log
+	wdiff = diff --word-diff
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
