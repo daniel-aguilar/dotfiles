@@ -33,9 +33,9 @@
 	diffs = diff --staged
 	rs = restore
 	rtl = reset --soft HEAD^
-	rlog = reflog
-	lg = log
 	wdiff = diff --word-diff
+	l = log
+	rl = reflog
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
