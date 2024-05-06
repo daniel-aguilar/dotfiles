@@ -43,3 +43,5 @@
 	clean = git-lfs clean -- %f
 [init]
 	defaultBranch = master
+[merge]
+	conflictStyle = diff3
