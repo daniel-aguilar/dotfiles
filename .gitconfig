@@ -17,7 +17,7 @@
 	co = checkout
 	cob = checkout -b
 	cc = commit
-	ca = commit --amend
+	ca = commit --amend --reset-author
 	cp = cherry-pick
 	cl = clean
 	rb = rebase
